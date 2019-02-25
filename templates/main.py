@@ -13,7 +13,7 @@ def my_form_post():
     return ( 'Welcome, 😊 ' + processed_text + ' 😊 to our Cloud Computing Summar 2018 class')
 
 def hello_world():
-  return 'Hello, World!\n This looks just amazing within 5 minutes'
+  return 'Hello, World!'
 
 if __name__ == '__main__':
   app.run()
