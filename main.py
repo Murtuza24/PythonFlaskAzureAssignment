@@ -21,7 +21,7 @@ server = 'sample2401.database.windows.net'
 database = 'Sample2401'
 username = 'murtuza'
 password = 'Maverick123'
-driver = '{ODBC Driver 13 for SQL Server}'
+driver = '{ODBC Driver 17 for SQL Server}'
 app = Flask(__name__)
 cacheName = 'testQueryRes'
 rd = redis.StrictRedis(host='Earthquake321.redis.cache.windows.net', port=6380, db=0,
