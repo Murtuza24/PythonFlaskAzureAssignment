@@ -1,0 +1,38 @@
+<html>
+<title>Assignment 3</title>
+<h1>Mohammed Murtuza Bhaiji -1001666586</h1>
+
+<br>
+	<form action="/uploadData" method="get">
+        Upload Data from CSV
+        <input type="submit" value="Upload">
+ </form>
+    <br>
+
+	<form action="/search" method="get">
+        Enter a magnitude<input type="text" name="mag" method="get" action="/search">
+        <input type="submit" value="Search">
+ </form>
+    <br>
+
+<p>
+	<!--<form action="/search" method="get">-->
+   		 <!--<input type="submit" value="Search">-->
+	<!--</form>-->
+</p>
+<p>
+	<form action="/quakeRangeRedis" method="get">
+		<!--(Redis)Range From: <input type="text" name="mag" maxlength="200" width="60"> -->
+		(Redis)Range To:<input type="text" name="mag1" maxlength="200" width="60">
+		<input type="submit" value="Search">
+	</form>
+</p>
+<p>
+	<form action="/quakeMultipleQuery" method="get">
+		Range From: <input type="text" name="mag" maxlength="200" width="60"> 
+		Range To:<input type="text" name="mag1" maxlength="200" width="60">
+		Queries:<input type="text" name="count" maxlength="200" width="60">
+		<input type="submit" value="Search">
+	</form>
+</p>	
+</html>
