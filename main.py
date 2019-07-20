@@ -19,8 +19,8 @@ import csv
 
 server = 'sample2401.database.windows.net'
 database = 'Sample2401'
-username = 'murtuza'
-password = 'Maverick123'
+username = 'UserName'
+password = 'Password'
 driver = '{ODBC Driver 17 for SQL Server}'
 app = Flask(__name__)
 cacheName = 'testQueryRes'
